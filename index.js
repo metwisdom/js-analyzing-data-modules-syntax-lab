@@ -24,7 +24,7 @@ function combineUsers(...args) {
   return combinedObject;
 }
 
-module.exports = combineUsers;
+module.exports = { combineUsers };
 
 if (require.main === module) {
   console.log('=== Demo Usage ===');
